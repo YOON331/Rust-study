@@ -2,8 +2,6 @@
 - [Push Push 게임](https://flasharch.com/en/archive/play/ea901d336b660426ef35e2ccf4170666)
 - 이 프로그램은 PushPush 게임을 커맨드라인 인터페이스에서 실행할 수 있는 기능을 제공합니다.   
 - 이 PushPush는 2개의 스테이지로 구분되어 화면의 `*`을 `0`위치로 이동시켜서 모든 0을 `@`로 만들면 게임이 종료됩니다.   <br/><br/>
-- 실행 화면 
-
 
 ## Features
 **게임 화면을 출력하는 함수 `display_map`**   
@@ -23,6 +21,12 @@
 
 
 ## 실행하기
+
+**실행 화면**
+  | stage 1 | stage 2|
+  |---|---|
+  | <img width="299" alt="image" src="https://github.com/user-attachments/assets/b3defde6-3e7b-4280-84b4-61ab48a831bd">| <img width="299" alt="image" src="https://github.com/user-attachments/assets/642efa63-af8a-4d66-860c-4ca8393b33e4"> |
+
 **1. git clone**
   ~~~
   git clone https://github.com/YOON331/Rust-study.git
@@ -55,4 +59,4 @@
 `w`: 위쪽으로 1칸 이동   
 `s`: 아래쪽으로 1칸 이동      
 `a`: 왼쪽으로 1칸 이동   
-`d`: 오른쪽으로 1칸 이동   
+`d`: 오른쪽으로 1칸 이동
